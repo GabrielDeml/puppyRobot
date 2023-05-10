@@ -4,16 +4,16 @@
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
-      "text": "\nResponse:\n{\n    commands: [\n        \"1\": [50,50],\n        \"1\": [50,60],\n        \"1\": [60,60],\n        \"1\": [60,50],\n        \"1\": [50,50],\n        \"2\": \"Going to position [50,50]\"\n    ]\n}"
+      "text": "{\n    \"commands\": [\n        {\"command\": \"move\", \"value\":  [100,100]},\n        {\"command\": \"wait\", \"value\":  1},\n        {\"command\": \"print\", \"value\":  \"Going to location 1\"},\n        {\"command\": \"move\", \"value\":  [-100,100]},\n        {\"command\": \"wait\", \"value\":  1},\n        {\"command\": \"print\", \"value\":  \"Going to location 2\"},\n        {\"command\": \"move\", \"value\":  [-100,-100]},\n        {\"command\": \"wait\", \"value\":  1},\n        {\"command\": \"print\", \"value\":  \"Going to location 3\"},\n        {\"command\": \"move\", \"value\":  [100,-100]},\n        {\"command\": \"wait\", \"value\":  1},\n        {\"command\": \"print\", \"value\":  \"Going to location 4\"},\n        {\"command\": \"move\", \"value\":  [0,0]},\n        {\"command\": \"wait\", \"value\":  1},\n        {\"command\": \"print\", \"value\":  \"Square complete!\"}\n    ]\n}"
     }
   ],
-  "created": 1683730734,
-  "id": "cmpl-7EfZG8Xzn6qUxIhhdewwzzTebio34",
+  "created": 1683733851,
+  "id": "cmpl-7EgNXHmTGmt0Zz3DfBCNLqHugrdqn",
   "model": "text-davinci-003",
   "object": "text_completion",
   "usage": {
-    "completion_tokens": 79,
-    "prompt_tokens": 113,
-    "total_tokens": 192
+    "completion_tokens": 262,
+    "prompt_tokens": 210,
+    "total_tokens": 472
   }
 }
